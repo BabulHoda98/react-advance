@@ -1,0 +1,27 @@
+export const people=[
+    {
+        id:1,
+        name:"Rahul",
+        age:22,
+    },
+    {
+        id:2,
+        name:"Vishal",
+        age:26,
+    },
+    {
+        id:3,
+        name:"Ajay",
+        age:19,
+    },
+    {
+        id:4,
+        name:"Mohit",
+        age:32,
+    },
+    {
+        id:5,
+        name:"Rahul",
+        age:29,
+    },
+];
