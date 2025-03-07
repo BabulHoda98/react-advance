@@ -17,6 +17,7 @@ import ToggleChallenge from "./topics/03-conditional-rendering/06-toggle-challen
 import UserChallenge from "./topics/03-conditional-rendering/07-use-challenge";
 import ControllerInput from "./topics/04-forms/01-controller-input";
 import MultipleInputs from "./topics/04-forms/03-multiple-input";
+import OtherInputs from "./topics/04-forms/04-other-input";
 
 function App(){
 
@@ -43,7 +44,8 @@ function App(){
         {/* <UserChallenge/> */}
         {/* <ControllerInput/> */}
 
-        <MultipleInputs/>
+        {/* <MultipleInputs/> */}
+        <OtherInputs/>
         
       </div>
       
