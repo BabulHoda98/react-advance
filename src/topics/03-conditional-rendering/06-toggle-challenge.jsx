@@ -4,27 +4,30 @@
 //-toggle state value
 //-conditionally render component/element
 
-import { useState } from "react";
+import React, { useState } from 'react'
 
-function ToggleChallenge() {
-    const[toggle,setToggle]=useState(false);
+const ToggleChallenge=()=> {
+   const [toggle,setToggle]=useState(false);
+
     function handleToggle(){
         setToggle(!toggle);
     }
-}
-return(
+  return (
     <div>
-        <h1>Toggle Challenge</h1>
-        <button onClick={handleToggle} className="btn">Click me </button>
+        <h1 className='h1 mb-4'>ToggleChallenge</h1>
+        <button className='btn' onClick={handleToggle}>Click me</button>
         {toggle && <SomeComponent/>}
     </div>
-)
+  )
+}
 
-function SomeComponent() {
+function SomeComponent(){
     return(
         <div>
-            <h3 className="h3">Some Component</h3>
+            <h1 className='h3'>Some Component</h1>
         </div>
     )
 }
-export default ToggleChallenge;
+
+export default ToggleChallenge
+

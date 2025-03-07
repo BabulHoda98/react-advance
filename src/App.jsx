@@ -12,8 +12,11 @@ import MultipleReturnsFetch from "./topics/03-conditional-rendering/02-multiple-
 import HooksRules from "./topics/03-conditional-rendering/03-hooks-rule";
 import ShorCircuit from "./topics/03-conditional-rendering/04-short-circuit";
 import ShorCircuitExample from "./topics/03-conditional-rendering/05-short-circuit-example";
-// import ToggleChallenge from "./topics/03-conditional-rendering/06-toggle-challenge";
+import ToggleChallenge from "./topics/03-conditional-rendering/06-toggle-challenge";
+
 import UserChallenge from "./topics/03-conditional-rendering/07-use-challenge";
+import ControllerInput from "./topics/04-forms/01-controller-input";
+import MultipleInputs from "./topics/04-forms/03-multiple-input";
 
 function App(){
 
@@ -37,7 +40,10 @@ function App(){
         {/* <ShorCircuit/> */}
         {/* <ShorCircuitExample/> */}
         {/* <ToggleChallenge/> */}
-        <UserChallenge/>
+        {/* <UserChallenge/> */}
+        {/* <ControllerInput/> */}
+
+        <MultipleInputs/>
         
       </div>
       
