@@ -18,6 +18,7 @@ import UserChallenge from "./topics/03-conditional-rendering/07-use-challenge";
 import ControllerInput from "./topics/04-forms/01-controller-input";
 import MultipleInputs from "./topics/04-forms/03-multiple-input";
 import OtherInputs from "./topics/04-forms/04-other-input";
+import UnControlInput from "./topics/04-forms/05-form-data";
 
 function App(){
 
@@ -45,7 +46,8 @@ function App(){
         {/* <ControllerInput/> */}
 
         {/* <MultipleInputs/> */}
-        <OtherInputs/>
+        {/* <OtherInputs/> */}
+        <UnControlInput/>
         
       </div>
       
