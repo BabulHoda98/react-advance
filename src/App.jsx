@@ -19,7 +19,8 @@ import MultipleInputs from "./topics/04-forms/03-multiple-input";
 import OtherInputs from "./topics/04-forms/04-other-input";
 import UnControlInput from "./topics/04-forms/05-form-data";
 import Demo from "./topics/05-custom-hook/Demo";
-import UserInfo from "./topics/05-custom-hook/use-info";
+// import UserInfo from "./topics/05-custom-hook/use-info";
+import Navbar from "./topics/06-context-api/prop-drilling/navbar";
 
 
 function App(){
@@ -27,7 +28,7 @@ function App(){
   return (
     <main className="bg-neutral-800 text-neutral-100">
       <div className="container mx-auto py-8 px-4 min-h-screen">
-        <h1 className="text-4xl font-bold mb-6 text-cyan-400">React Advance</h1>
+        {/* <h1 className="text-4xl font-bold mb-6 text-cyan-400">React Advance</h1> */}
         {/* <WhyUseState/> */}
         {/* <UseStateExample/> */}
         {/* <UseStateArray/> */}
@@ -51,7 +52,8 @@ function App(){
         {/* <OtherInputs/> */}
         {/* <UnControlInput/> */}
         {/* <Demo/> */}
-        <UserInfo/>
+        {/* <UserInfo/> */}
+        <Navbar/>
         
       </div>
       
