@@ -1,10 +1,10 @@
 import React from 'react'
 
-const UserContainer = () => {
+const UserContainer = ({user,logout}) => {
   return (
     <div className='flex gap-2 items-center'>
-        <p >Hello There,user</p>
-        <button className='btn'>Logout</button>
+        <p >Hello There,{user.name}</p>
+        <button className='btn'onClick={logout}>Logout</button>
     </div>
   )
 }
