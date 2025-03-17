@@ -20,7 +20,8 @@ import OtherInputs from "./topics/04-forms/04-other-input";
 import UnControlInput from "./topics/04-forms/05-form-data";
 import Demo from "./topics/05-custom-hook/Demo";
 // import UserInfo from "./topics/05-custom-hook/use-info";
-import Navbar from "./topics/06-context-api/prop-drilling/navbar";
+// import Navbar from "./topics/06-context-api/prop-drilling/navbar";
+import AnimatedBar from "./topics/Project/video-animation";
 
 
 function App(){
@@ -53,7 +54,8 @@ function App(){
         {/* <UnControlInput/> */}
         {/* <Demo/> */}
         {/* <UserInfo/> */}
-        <Navbar/>
+        {/* <Navbar/> */}
+        <AnimatedBar/>
         
       </div>
       

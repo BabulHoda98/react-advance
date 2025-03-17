@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { createContext, useState } from 'react'
 import NavaLinks from './navlinks';
 
+const NavbarContext=createContext():
 const Navbar = () => {
     const[user,setUser]=useState({name:"Hoda"});
 
