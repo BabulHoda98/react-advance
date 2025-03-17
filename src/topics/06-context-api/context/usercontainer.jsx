@@ -1,8 +1,10 @@
-import React, { useContext } from 'react'
-import{NavbarContext} from "./Navbar";
+import React from "react";
+import { useNavbarContext } from "./navbar";
 
 const UserContainer = () => {
-  const {user,logout}=useContext(NavbarContext);
+
+  const {user,logout}= useNavbarContext();
+
   return (
     <div className='flex gap-2 items-center'>
         {user ? (
@@ -19,3 +21,4 @@ const UserContainer = () => {
 }
 
 export default UserContainer;
+

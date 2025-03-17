@@ -1,10 +1,14 @@
-import React, { useState,createContext } from 'react'
+import React, { useState,createContext, useContext } from 'react'
 import NavaLinks from './navlinks';
 
 export const NavbarContext=createContext();
 //returns two components
 //Provider
 //Consumer
+
+export const useNavbarContext=()=>{
+  return useContext(NavbarContext);
+}
 
 const Navbar = () => {
     const[user,setUser]=useState({name:"Hoda"});
@@ -25,6 +29,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-const useNavbarContext=()=>{
-  
-}
