@@ -1,7 +1,7 @@
 import React from 'react'
 import UserContainer from './usercontainer'
 
-const NavaLinks = ({user,logout}) => {
+const NavaLinks = () => {
   return (
     <div className='flex gap-4 items-center'>
         <ul className='flex gap-4 items-center text-purple-500'>
@@ -12,9 +12,9 @@ const NavaLinks = ({user,logout}) => {
                 <a href='#'>About</a>
             </li>
         </ul>
-        < UserContainer user={user} logout={logout}/>
+        < UserContainer/>
     </div>
   )
 }
 
-export default NavaLinks
+export default NavaLinks;

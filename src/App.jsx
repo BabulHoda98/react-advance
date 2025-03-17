@@ -21,7 +21,8 @@ import UnControlInput from "./topics/04-forms/05-form-data";
 import Demo from "./topics/05-custom-hook/Demo";
 // import UserInfo from "./topics/05-custom-hook/use-info";
 // import Navbar from "./topics/06-context-api/prop-drilling/navbar";
-import AnimatedBar from "./topics/Project/video-animation";
+// import AnimatedBar from "./topics/Project/video-animation";
+import Navbar from "./topics/06-context-api/context/navbar";
 
 
 function App(){
@@ -55,7 +56,9 @@ function App(){
         {/* <Demo/> */}
         {/* <UserInfo/> */}
         {/* <Navbar/> */}
-        <AnimatedBar/>
+        {/* <AnimatedBar/> */}
+
+        <Navbar/>
         
       </div>
       

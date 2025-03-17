@@ -1,5 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState,createContext } from 'react'
 import NavaLinks from './navlinks';
+
+export const NavbarContext=createContext();
+//returns two components
+//Provider
+//Consumer
 
 const Navbar = () => {
     const[user,setUser]=useState({name:"Hoda"});
@@ -9,11 +14,17 @@ const Navbar = () => {
     }
 
   return (
-    <nav className='flex gap-4 justify-between'>
-        <h4 className='h4'>PropDrilling</h4>
-        <NavaLinks user={user} logout={logout} />
-    </nav>
+    <NavbarContext.Provider value={{user,logout}}>
+      <nav className='flex gap-4 justify-between'>
+          <h4 className='h4'>PropDrilling</h4>
+          <NavaLinks/>
+      </nav>
+    </NavbarContext.Provider>
   )
 }
 
-export default Navbarcc1
+export default Navbar;
+
+const useNavbarContext=()=>{
+  
+}
